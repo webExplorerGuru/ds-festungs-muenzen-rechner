@@ -2,7 +2,7 @@
 
 Münzen-Festungs-Rechner für [Die Staemme](https://www.die-staemme.de/).
 
-Verfübar unter [ds-raubzug-rechner](https://webexplorerguru.github.io/ds-festungs-muenzen-rechner/)
+Verfübar unter [ds-festungs-muenzen-rechner](https://webexplorerguru.github.io/ds-festungs-muenzen-rechner/)
 
 ## Erklärung
 
