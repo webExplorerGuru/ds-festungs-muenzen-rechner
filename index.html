@@ -20,217 +20,93 @@
 
 
   <style id="compiled-css" type="text/css">
-      @import url("//unpkg.com/element-ui@2.5.3/lib/theme-chalk/index.css");
+      @import url("//unpkg.com/element-ui/lib/theme-chalk/index.css");
 
-.el-button {
-  margin-bottom: 10px;
-  width: 100%;
-  background: linear-gradient(to bottom, #b69471 0%, #9f764d 22%, #8f6133 30%, #6c4d2d 100%);
-  color: white;
-  display: block;
-}
+ .el-button {
+   margin-bottom: 10px;
+   width: 100%;
+   background: linear-gradient(to bottom, #b69471 0%, #9f764d 22%, #8f6133 30%, #6c4d2d 100%);
+   color: white;
+   display: block;
+ }
 
-.right-align {
-  float: right;
-}
+ .right-align {
+   float: right;
+   width: 20%;
+   text-align: center;
+   margin-right: 10px;
+ }
 
-.el-input {
-  float: right;
-  width: 30%;
-}
+ .el-input-number {
+   float: right;
+   width: 20%;
+ }
 
-.el-col {
-  margin-bottom: 5px;
-}
+ .el-col {
+   margin-bottom: 5px;
+ }
 
-.el-button:focus {
-  color: white;
-}
+ .el-button:focus {
+   color: white;
+ }
 
-.text {
-  font-size: 14px;
-}
+ .text {
+   font-size: 14px;
+ }
 
-.el-input-number {
-  width: 70px;
-}
+ .time-input {
+   width: 50px;
+ }
 
-.time-input {
-  width: 50px;
-}
+ .el-button:hover {
+   color: #501010;
+ }
 
-.time-one {
-  margin-left: 10px;
-}
+ .time-one {
+   margin-left: 10px;
+ }
 
-.bigger-text {
-  font-size: 20px;
-}
+ .bigger-text {
+   font-size: 20px;
+ }
 
-.bigger-text2 {
-  font-size: 25px;
-}
+ .bigger-text2 {
+   font-size: 25px;
+ }
 
+ .mt {
+   margin-top: 3px;
+ }
 
-.mt {
-  margin-top: 3px;
-}
+ #app {
+   margin: 20px;
+   color: #5b390d;
+ }
 
-#app {
-  margin: 20px;
-  color: #5b390d;
-}
+ .wide-input {
+   width: 100%;
+ }
 
-.wide-input {
-  width: 100%;
-}
+ .el-row {
+   margin-bottom: 20px;
+ }
 
-.el-row {
-  margin-bottom: 20px;
-}
+ body {
+   background: #fff5da;
+ }
 
-.el-radio-group {
-  width: 100%;
-}
+ .el-input-number.is-controls-right .el-input__inner {
+   padding-left: 0px;
+   padding-right: 20px;
+ }
 
-.el-radio-button__inner {
-  width: 100%;
-  color: #5b390d;
-  background: #f0e2be;
-}
-
-.el-radio-button__inner:hover {
-  color: #a55340;
-}
-
-.el-button:hover {
-  color: #501010;
-}
-
-.el-radio-button {
-  width: 40%;
-}
-
-.el-radio-button:first-of-type {
-  margin-left: 10px;
-}
-
-.el-input-number.is-controls-right .el-input__inner {
-  padding-left: 0px;
-  padding-right: 20px;
-}
-
-.el-input-number--small .el-input-number__decrease,
-.el-input-number--small .el-input-number__increase {
-  width: 20px;
-  font-size: 13px;
-  color: white;
-  background: linear-gradient(to bottom, #b69471 0%, #9f764d 22%, #8f6133 30%, #6c4d2d 100%);
-}
-
-.el-checkbox {
-  margin-left: 5px;
-}
-
-.header-checker {
-  height: 18px;
-}
-
-.tm {
-  margin-top: 5px;
-}
-
-.far {
-  font-size: 18px;
-}
-
-.div-b {
-  width: 100%;
-}
-
-.margin-left {
-  margin-left: 30px;
-}
-
-.centered {
-  font-size: 25px;
-  transform: translateY(20%);
-}
-
-.down {
-  transform: translateY(-100%);
-}
-
-.inline {
-  height: 30px;
-  display: inline-flex;
-  align-items: center;
-}
-
-
-img {
-  height: 18px;
-  width: auto;
-  vertical-align: top;
-}
-
-.el-checkbox__input {
-  vertical-align: top;
-  margin-top: 3px;
-}
-
-.el-checkbox__input.is-checked .el-checkbox__inner,
-.el-checkbox__input.is-indeterminate .el-checkbox__inner {
-  background-color: #6c4d2d;
-  border-color: #6c4d2d;
-}
-
-.el-radio-button__orig-radio:checked+.el-radio-button__inner {
-  color: #fff;
-  background: linear-gradient(to bottom, #b69471 0%, #9f764d 22%, #8f6133 30%, #6c4d2d 100%);
-  border-color: #6c4d2d;
-}
-
-.el-table .second-row {
-  background: #f0e2be;
-}
-
-.el-table th {
-  background: #ecdaac;
-}
-
-.el-table tr {
-  background: #fff5da;
-}
-
-body {
-  background: #fff5da;
-}
-
-.el-table {
-  border-color: #7d510f;
-  color: #5b390d;
-}
-
-.el-table td,
-.el-table th.is-leaf {
-  border-bottom-color: #7d510f;
-  color: #5b390d;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.el-table--border td,
-.el-table--border th,
-.el-table__body-wrapper .el-table--border.is-scrolling-left.el-table__fixed {
-  border-right-color: #7d510f;
-}
-
-.el-table--border::after,
-.el-table--group::after,
-.el-table::before {
-  background-color: #7d510f;
-}
+ .el-input-number--small .el-input-number__decrease,
+ .el-input-number--small .el-input-number__increase {
+   width: 20px;
+   font-size: 13px;
+   color: white;
+   background: linear-gradient(to bottom, #b69471 0%, #9f764d 22%, #8f6133 30%, #6c4d2d 100%);
+ }
 
   </style>
 
@@ -275,36 +151,34 @@ new Ctor().$mount('#app')
     <script src="//unpkg.com/vue/dist/vue.js"></script>
 <script src="//unpkg.com/element-ui@2.5.3/lib/index.js"></script>
 <div id="app">
-
-  <el-row :gutter="16" justify="center" class="bigger-text">
-    <el-col :span="16">
+  <el-row justify="center" class="bigger-text">
+    <el-col>
       Anzahl Dörfer gegnerischer Stamm:
-      <el-input placeholder="" type="number" min="1" max="10000" v-model="AmountHostileVillages" size="small"></el-input>
+      <el-input-number controls-position="right" :min="1" :max="100000" v-model="AmountHostileVillages" size="small"></el-input-number>
     </el-col>
-    <el-col :span="16">
+    <el-col>
       Anzahl Dörfer eigener Stamm:
-      <el-input placeholder="" type="number" min="1" max="10000" v-model="TotalAmountTribeVillages" size="small"></el-input>
+      <el-input-number controls-position="right" :min="1" :max="100000" v-model="TotalAmountTribeVillages" size="small"></el-input-number>
     </el-col>
-    <el-col :span="16">
+    <el-col>
       Level Festung
-      <el-input placeholder="" type="number" min="1" max="10" v-model="StrongholdLevel" size="small"></el-input>
+      <el-input-number controls-position="right" :min="1" :max="10" v-model="StrongholdLevel" size="small"></el-input-number>
     </el-col>
-    <el-col :span="16">
+    <el-col>
       Anzahl eigener Dörfer
-      <el-input placeholder="" type="number" min="1" max="10000" v-model="AmountOwnVillages" size="small"></el-input>
+      <el-input-number controls-position="right" :min="1" :max="10000" v-model="AmountOwnVillages" size="small"></el-input-number>
     </el-col>
-    <el-col :span="16">
+    <el-col>
       <el-button @click="calc">Münzen berechnen</el-button>
     </el-col>
-    <el-col :span="16">
+    <el-col>
       <div class="bigger-text2">
-        Gesamtmünzen: {{ TotalCoinReward }} <br>
-        eigene Münzen: {{ PlayerCoinReward }}
+        Gesamtmünzen: <span class="right-align">{{ TotalCoinReward }}</span> <br>
+        eigene Münzen: <span class="right-align">{{ PlayerCoinReward }}</span>
       </div>
     </el-col>
   </el-row>
 </div>
-
 
 </body>
 </html>
